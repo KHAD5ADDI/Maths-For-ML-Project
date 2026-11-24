@@ -37,7 +37,7 @@ The story advances ping by ping; each obstacle introduces the method that remove
 
 | Part | Chapter | The obstacle | The tool it forces on us |
 |---|---|---|---|
-| | Prologue, Chapter 0 | The case, the data and the assumptions | Sourced constants, the assumptions table, the visual system, the method on one figure |
+| | Prologue, Chapter 0 | The case, the data and the assumptions | Sourced constants, the assumptions table, the visual system, the method on one figure, the Monte Carlo average behind every answer |
 | **I. From circles to samples** | Ping 1 — A ping is a circle | A delay is not a position | Measurement model, likelihood, Bayes' rule, the Monte Carlo estimator and its CLT |
 | | Ping 2 — Simulate flights | We need a prior over whole flight paths | A stochastic motion model; rejection sampling and its collapse; random-walk Metropolis |
 | **II. Making Monte Carlo work** | Ping 3 — Weigh, don't discard | Rejection throws away almost everything | Importance sampling, the self-normalised estimator |
@@ -49,7 +49,7 @@ The story advances ping by ping; each obstacle introduces the method that remove
 | | Epilogue A — How fragile? | What if our assumptions are wrong? | Sensitivity analysis, model evidence |
 | | Epilogue B — Reality check | What did the real search find? | Comparison with the searches, limits of the model |
 
-**Reading aids.** Every investigation chapter (Ping 1 through Epilogue B, plus section 2.3) opens with an *In plain words* box (three sentences, no symbols), and every experiment is followed by a *What we actually ran* card printed by the code: what was simulated, how many runs, the settings and random streams, the run time and the result. Section 0.3 lists every modelling assumption with the section that tests it and its measured effect on the answer; section 0.6 draws the whole method on one figure, followed by the notation. The plotting helpers of Chapter 0 (section 0.4) contain no mathematics and can be skipped.
+**Reading aids.** Every investigation chapter (Ping 1 through Epilogue B, plus section 2.3) opens with an *In plain words* box (three sentences, no symbols), and every experiment is followed by a *What we actually ran* card printed by the code: what was simulated, how many runs, the settings and random streams, the run time and the result. Section 0.3 lists every modelling assumption with the section that tests it and its measured effect on the answer; section 0.6 draws the whole method on one figure, followed by the notation; section 0.7 shows where Monte Carlo enters, as the weighted average behind every number the notebook reports. The plotting helpers of Chapter 0 (section 0.4) contain no mathematics and can be skipped.
 
 ## Repository layout
 
